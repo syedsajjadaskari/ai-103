@@ -1,2 +1,16 @@
-# Local environment files
-Translator/.env
+# Ignore local environment values
+*.env
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Jupyter checkpoint directories
+**/.ipynb_checkpoints
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore editor swap/temp files
+*~
+*.swp
